@@ -1,0 +1,48 @@
+.black{background-color: black;}
+.gray{background-color: gray;}
+.silver{background-color: silver;}
+.white{background-color: white;}
+.skyblue{background-color: skyblue;}
+.blue{background-color: blue;}
+.navy{background-color: navy;}
+.teal{background-color: teal;}
+.green{background-color: green;}
+.lime{background-color: lime;}
+.aqua{background-color: aqua;}
+.yellow{background-color: yellow;}
+.red{background-color: red;}
+.fuchsia{background-color: fuchsia;}
+.olive{background-color: olive;}
+.purple{background-color: purple;}
+.maroon{background-color: maroon;}
+.BDB76B{background-color: #BDB76B;}
+.DCD3B2{background-color: #DCD3B2;}
+
+
+
+span{
+    display: block;
+}
+
+#screen .dot{
+    width: 0.5%;
+    max-width: 10px;
+    position: relative;
+}
+
+#screen .dot:before {
+    content:"";
+    display: block;
+    padding-top: 100%; /* 高さを幅の75%に固定 */
+}
+
+
+
+#screen{
+    width: 100%;
+}
+
+#screen div{
+    display: flex;
+    overflow-x: hidden;
+}
